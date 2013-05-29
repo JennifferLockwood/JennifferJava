@@ -21,8 +21,8 @@ public class Example3 {
         System.out.println(); // Print a blank line
 
         // now, divide both by 4
-        var = var / 4;
-        x = x / 4;
+        var = var / 3;
+        x = x / 3;
 
         System.out.println("var after division: " + var);
         System.out.println("x after division: " + x);
