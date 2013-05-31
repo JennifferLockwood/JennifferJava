@@ -11,7 +11,7 @@ public class BlockDemo {
     public static void main(String args[]) {
         double i, j, d;
 
-        i = 5;
+        i = 0;
         j = 10;
 
         // the target of this if is a blovk
