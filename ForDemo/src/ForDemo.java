@@ -12,7 +12,7 @@ public class ForDemo {
     public static void main(String args[]){
         int count;
 
-        for(count = 0; count < 11; count = count + 1) // this loops iterates eleven times
+        for(count = 0; count < 11; count++) // this loops iterates eleven times
             System.out.println("This is count: " + count);
 
         System.out.println("Done!");
