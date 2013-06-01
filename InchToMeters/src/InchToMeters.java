@@ -12,7 +12,7 @@ public class InchToMeters {
 
         counter = 0;
         for(inches = 1; inches <= 144; inches++) {
-            meters = inches * 39.37; // convert inches to meters
+            meters = inches / 39.37; // convert inches to meters
             System.out.println(inches + " inches is " + meters + " meters.");
 
             counter ++;
