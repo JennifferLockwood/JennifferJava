@@ -16,7 +16,7 @@ public class CharInte {
         ch++; //increment ch
         System.out.println("ch is now " + ch);
 
-        ch = 90; // give ch the value z
+        ch = 75; // give ch the value k
         System.out.println("ch is now " + ch);
     }
 }
