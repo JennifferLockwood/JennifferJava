@@ -9,8 +9,8 @@
  */
 public class CubicInches {
     public static void main(String args[]) {
-        long ci;
-        long im;
+        int ci;
+        int im;
 
         im = 5280 * 12;
 
