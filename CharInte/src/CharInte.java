@@ -10,13 +10,13 @@ public class CharInte {
     public static void main(String args[]) {
         char ch;
 
-        ch = 'X';
+        ch = 'T';
         System.out.println("ch contains " + ch);
 
         ch++; //increment ch
         System.out.println("ch is now " + ch);
 
-        ch = 75; // give ch the value k
+        ch = 82; // give ch the value k
         System.out.println("ch is now " + ch);
     }
 }
