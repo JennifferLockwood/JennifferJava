@@ -9,10 +9,13 @@
  */
 public class Sound {
     public static void main(String args[]) {
-        double dist;
+        double dist, seconds;
 
-        dist = 7.2 * 1100;
+        for(seconds = 1; seconds <=10; seconds++) {
+            dist = seconds * 1100;
 
-        System.out.println("The lighting is " + dist + " feet away.");
+            System.out.println("The lighting is " + dist + " feet away after " + seconds + " seconds.");
+        }
+
     }
 }
