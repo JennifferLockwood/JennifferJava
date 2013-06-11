@@ -9,8 +9,8 @@ class NestVar {
         for(count = 0; count < 10; count = count + 1) {
             System.out.println("This is count: " + count);
 
-            int count; // illegal!!!
-            for(count = 0; count < 2; count++)
+            int difcount; // illegal!!!
+            for(difcount = 0; difcount < 2; difcount++)
                 System.out.println("This program is in error!");
         }
     }
