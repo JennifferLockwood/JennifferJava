@@ -14,7 +14,7 @@ class ScopeDemo {
             System.out.println("x and y: " + x + " " + y);
             x = y * 2;
         }
-        // y = 100; Error! y not known here. Here, y is outside of its scope.
+        y = 100; // Error! y not known here. Here, y is outside of its scope.
 
         // x is still known here.
         System.out.println("x is " + x);
