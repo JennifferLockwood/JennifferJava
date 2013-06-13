@@ -6,7 +6,7 @@ class LongtoDouble {
         double D;
 
         L = 100123285L;
-        D = L;
+        L = D;  // Illegal!!!
 
         System.out.println("L and D: " + L + " " + D);
 
