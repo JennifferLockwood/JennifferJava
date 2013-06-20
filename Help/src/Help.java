@@ -8,20 +8,20 @@ class Help {
         char choice;
 
         System.out.println("Help on");
-        System.out.println("  1. if");
-        System.out.println("  2. switch");
+        System.out.println("  A. if");
+        System.out.println("  B. switch");
         System.out.println("Choose on: ");
         choice = (char) System.in.read();
 
         System.out.println("\n");
 
         switch (choice) {
-            case '1':
+            case 'A':
                 System.out.println("The if: \n");
                 System.out.println("if(condition) statement;");
                 System.out.println("else statement;");
                 break;
-            case '2':
+            case 'B':
                 System.out.println("The switch: \n");
                 System.out.println("switch(expression) {");
                 System.out.println("  case constant:");
