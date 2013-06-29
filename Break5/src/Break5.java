@@ -9,7 +9,7 @@ class Break5 {
                 for (int j = 0; j < 10; j++) {
                     for (int k = 0; k < 10; k++) {
                         System.out.println(k + " ");
-                        if (k == 5) break done; // jump to done
+
                     }
                     System.out.println("After k loop"); // won't execute
                 }
