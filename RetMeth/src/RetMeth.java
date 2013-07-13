@@ -16,7 +16,6 @@ class RetMeth {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
 
-        int range1, range2;
 
         // assign values to fields in minivan
         minivan.passengers = 7;
@@ -28,14 +27,12 @@ class RetMeth {
         sportscar.fuelcap = 14;
         sportscar.mpg = 12;
 
-        // get the ranges
-        range1 = minivan.range(); // assign the value returned to a variable
-        range2 = sportscar.range();
-
         System.out.println("Minivan can carry " + minivan.passengers +
-                            " with a range of " + range1 + " Miles.");
+                            " with a range of " + minivan.range() + " Miles.");
 
         System.out.println("Sportscar can carry " + sportscar.passengers +
-                            " with a range of " + range2 + " Miles.");
+                            " with a range of " + sportscar.range() + " Miles.");
+
+        if (minivan.range() > sportscar.range()) System.out.println("Minivan has greater range.");
     }
 }
