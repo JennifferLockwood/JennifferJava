@@ -10,12 +10,13 @@ class LengthDemo {
                 { 6, 7, 8, 9}
         };
 
-        System.out.println("length of list is: " + list.length);
-        System.out.println("length of nums is: " + nums.length);
-        System.out.println("length of table is: " + table.length);
-        System.out.println("length of table[0] is: " + table[0].length);
-        System.out.println("length of table[1] is: " + table[1].length);
-        System.out.println("length of table[2] is: " + table[2].length);
+        System.out.println("length of list is " + list.length);
+        System.out.println("length of nums is " + nums.length);
+        System.out.println("length of table is " + table.length);
+        System.out.println("length of table[0] is " + table[0].length);
+        System.out.println("length of table[1] is " + table[1].length);
+        System.out.println("length of table[2] is " + table[2].length);
+        System.out.println();
 
         // use length to initialize list
         for (int i = 0; i < 10; i++)
