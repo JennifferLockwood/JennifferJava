@@ -7,6 +7,11 @@ class Cone {
     int radius;
     int high;
 
+    Cone (int r, int h) {
+        radius = r;
+        high = h;
+    }
+
     void volarea() {
         double volume  = radius * radius * 3.14159 * high;
         System.out.println("Volume of the cone is: " + volume);
@@ -18,21 +23,9 @@ class Cone {
 
 class VolumeAreaCone {
     public static void main(String args[]) {
-        Cone small = new Cone();
-        Cone medium = new Cone();
-        Cone large = new Cone();
-
-        // assign values to fields in small
-        small.high = 5;
-        small.radius = 4;
-
-        // assign values to fields in medium
-        medium.high = 15;
-        medium.radius = 12;
-
-        // assign values to fields in large
-        large.high = 100;
-        large.radius = 20;
+        Cone small = new Cone(4, 5);
+        Cone medium = new Cone(12, 15);
+        Cone large = new Cone(100, 20);
 
         small.volarea();
 
